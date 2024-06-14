@@ -30,7 +30,7 @@ Before we start, ensure you have the following:
                <plugin>
                    <groupId>org.sonatype.plugins</groupId>
                    <artifactId>nexus-clm-maven-plugin</artifactId>
-                   <version>2.10.0-01</version>
+                   <version>2.47.14-01</version>
                </plugin>
                ...
            </plugins>
@@ -126,7 +126,7 @@ Instead of hardcoding credentials in `pom.xml`, use environment variables or a p
 ### Running Nexus IQ Analysis Locally
 To run the Nexus IQ analysis locally, use the following command:
 ```sh
-mvn clean verify org.sonatype.plugins:nexus-clm-maven-plugin:2.10.0-01:scan -Pnexus-iq-local
+mvn clean verify org.sonatype.plugins:nexus-clm-maven-plugin:2.47.14-01:scan -Pnexus-iq-local
 ```
 
 ### Integrating Nexus IQ in CI/CD Pipeline
@@ -166,7 +166,7 @@ For CI/CD, you'll configure your pipeline to trigger the Nexus IQ scan using the
            NEXUS_IQ_APPLICATION_PUBLIC_ID: ${{ secrets.NEXUS_IQ_APPLICATION_PUBLIC_ID }}
            NEXUS_IQ_USERNAME: ${{ secrets.NEXUS_IQ_USERNAME }}
            NEXUS_IQ_PASSWORD: ${{ secrets.NEXUS_IQ_PASSWORD }}
-         run: mvn org.sonatype.plugins:nexus-clm-maven-plugin:2.10.0-01:scan -Pnexus-iq-ci
+         run: mvn org.sonatype.plugins:nexus-clm-maven-plugin:2.47.14-01:scan -Pnexus-iq-ci
    ```
 
 ### Conclusion
