@@ -1,5 +1,6 @@
-## DevSecOps: Integrating Security in Every Step of the Development Lifecycle
-
+---
+layout: post
+---
 In the rapidly evolving landscape of software development, the demand for agile, secure, and high-quality applications has given rise to the DevSecOps paradigm. DevSecOps, short for Development, Security, and Operations, emphasizes the integration of security practices within every phase of the software development lifecycle. This approach ensures that security is not an afterthought but a fundamental component embedded from the start. Here’s a deep dive into the key components of DevSecOps:
 
 ### Continuous Integration and Continuous Deployment (CI/CD)
