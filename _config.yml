@@ -1,6 +1,6 @@
 title: InnovationForge
-author: InnovationForge
-email: InnovationForge@innovationforge.in
+#author: InnovationForge
+#email: InnovationForge@innovationforge.in
 description: >
   This is a demo page for minima-reboot, a bootstrap-based rewrite of Jekyll's
   default minima theme. It is simple, lightweight, and responsive.
@@ -20,11 +20,12 @@ minima_reboot:
 header_pages:
 - about.md
 - posts.md
+#- github.md
 
 footer_icons:
-- username: aterenin/minima-reboot/
-  url: https://github.com/aterenin/minima-reboot/
-  icon: icon-github.svg
+#- username: aterenin/minima-reboot/
+#  url: https://github.com/aterenin/minima-reboot/
+#  icon: icon-github.svg
 
 paginate: 5
 
