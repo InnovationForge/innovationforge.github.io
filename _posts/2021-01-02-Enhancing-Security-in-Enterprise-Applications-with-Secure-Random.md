@@ -2,8 +2,6 @@
 layout: post
 ---
 
-### Enhancing Security in Enterprise Applications with Secure Random
-
 In the world of enterprise applications, ensuring the security of data and transactions is paramount. One critical component in achieving this security is the use of cryptographically secure random number generators. In this blog post, we'll delve into what Secure Random is, its importance, and how it can be applied to various use cases in enterprise applications.
 
 #### What is Secure Random?
