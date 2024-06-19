@@ -4,51 +4,6 @@ layout: post
 
 The Spring Framework is a powerful, feature-rich framework for building Java applications. It offers a comprehensive infrastructure to support the development of robust, maintainable, and scalable applications. This blog post provides an overview of the key components and features of the Spring Framework, giving you a clear understanding of its capabilities and benefits.
 
-To visualize the structure and components of the Spring Framework, here's a detailed mind map:
-
-```mermaid
-mindmap
-    root ((Spring Framework))
-        Core Technologies
-            Dependency Injection
-            Events
-            Resources
-            i18n (Internationalization)
-            Validation
-            Data Binding
-            Type Conversion
-            SpEL (Spring Expression Language)
-            AOP (Aspect-Oriented Programming)
-        Testing
-            Mock Objects
-            TestContext Framework
-            Spring MVC Test
-            WebTestClient
-        Data Access
-            Transactions
-            DAO Support
-            JDBC
-            ORM (Object-Relational Mapping)
-            Marshalling XML
-        Web Frameworks
-            Spring MVC
-            Spring WebFlux
-        Integration
-            Remoting
-            JMS (Java Message Service)
-            JCA (Java EE Connector Architecture)
-            JMX (Java Management Extensions)
-            Email
-            Tasks
-            Scheduling
-            Cache
-            Observability
-        Languages
-            Kotlin
-            Groovy
-            Dynamic Languages
-```
-
 ## Core Technologies
 
 ### Dependency Injection
