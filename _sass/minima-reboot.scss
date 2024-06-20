@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 @import
-  "minima-reboot/layout",
-  "minima-reboot/syntax-highlighting"
-;
+"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap",
+"minima-reboot/layout",
+"minima-reboot/syntax-highlighting";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}

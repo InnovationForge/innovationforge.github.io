@@ -2,8 +2,9 @@
   <div id="nav-container" class="container position-relative d-flex justify-content-between align-items-center">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="h4 m-0 text-dark" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
+    <a class="h4 m-0 text-dark" href="{{ "/" | relative_url }}">
+    <img src="/assets/images/logo8.png" alt="Logo" width="318" height="35" class="d-inline-block align-text-top">
+    </a>
     {% if page_paths %}
       <nav id="nav-menu-container" class="text-right navbar-light">
         <input type="checkbox" id="nav-trigger" class="d-none"/>

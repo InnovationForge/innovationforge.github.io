@@ -2,8 +2,6 @@
 layout: post
 ---
 
-### Building a PDF Generation Service with Spring Boot
-
 In this blog post, we'll walk you through the design and implementation of a PDF generation service using Spring Boot. This service takes a template and data to create the requested PDF, ideal for generating documents like invoices, reports, or any other structured document. We'll cover the project structure, key technologies used, and the code implementation.
 
 #### Project Overview
