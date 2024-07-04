@@ -2,12 +2,6 @@
 layout: post
 ---
 
-Certainly! Here's a blog post on the comparison between Consumer Driven Contract Testing with Spring Cloud Contract and PactFlow:
-
----
-
-# Consumer Driven Contract Testing: Spring Cloud Contract vs PactFlow
-
 Consumer Driven Contract Testing (CDCT) has become essential in the world of microservices to ensure seamless communication between services without causing disruptions. It allows teams to define and verify contracts that specify how services should interact, ensuring compatibility and preventing integration issues. Two prominent tools for implementing CDCT are Spring Cloud Contract and PactFlow, each offering unique features and capabilities. In this blog post, we'll explore and compare these two tools to help you choose the right one for your project.
 
 ## Understanding Consumer Driven Contract Testing (CDCT)
