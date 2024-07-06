@@ -1,5 +1,12 @@
 # minima-reboot
 
+```bash
+jekyll serve --watch
+```
+
+[![Build Status](https://travis-ci.org/aterenin/minima-reboot.svg?branch=master)](https://travis-ci.org/aterenin/minima-reboot)
+```
+
 [![Gem Version](https://badge.fury.io/rb/minima-reboot.svg)](https://badge.fury.io/rb/minima-reboot)
 
 Minima Reboot is a responsive [Bootstrap](https://getbootstrap.com/) port of Jekyll's default theme, [Minima](https://github.com/jekyll/minima). It tries to be style-light, following Bootstrap as much as possible. It uses `bootstrap.css` only, and does not load `bootstrap.js`.

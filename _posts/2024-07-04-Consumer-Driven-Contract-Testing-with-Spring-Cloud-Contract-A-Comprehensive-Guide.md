@@ -229,16 +229,52 @@ public class ConsumerControllerIntegrationTest {
 }
 ```
 
-### Running the Tests
+### Running the Tests, verify contract & generate stubs
 
-1. **Generate Provider Stubs:** Navigate to the provider application directory and run:
+After implementing the Consumer Driven Contract Testing (CDCT) setup as described, the following Maven commands are essential for testing, verifying, and generating stubs.
+
+### Provider Side
+
+1. **Clean and Install the Project**
+   This command cleans the project, compiles the source code, runs the tests, and installs the built artifact into the local Maven repository.
+
    ```sh
    ./mvnw clean install
    ```
-2. **Run Consumer Tests:** In the consumer application directory, execute:
+
+2. **Generate Stubs**
+   During the `install` phase, the `spring-cloud-contract-maven-plugin` will automatically generate the stubs based on the contracts and place them in the `target` directory.
+
    ```sh
-   ./mvnw test
+   ./mvnw clean install
    ```
+
+3. **Verify Contracts**
+   This command specifically verifies that the contracts are implemented correctly in the provider application.
+
+   ```sh
+   ./mvnw verify
+   ```
+
+### Consumer Side
+
+1. **Clean and Test the Project**
+   This command cleans the project, compiles the source code, and runs the tests. It uses the stubs provided by the provider to verify that the consumer interacts correctly with the provider.
+
+   ```sh
+   ./mvnw clean test
+   ```
+
+### Summary of Maven Commands
+
+- **Provider Side:**
+   - `./mvnw clean install`: Clean, compile, run tests, install artifact, and generate stubs.
+   - `./mvnw verify`: Specifically verify contracts.
+
+- **Consumer Side:**
+   - `./mvnw clean test`: Clean, compile, and run tests using the provider stubs.
+
+By running these Maven commands, you can ensure that both the provider and consumer applications adhere to the defined contracts, and the interactions between them are correctly validated.
 
 ## Conclusion
 
